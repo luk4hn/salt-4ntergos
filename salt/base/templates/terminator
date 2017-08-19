@@ -1,0 +1,37 @@
+[global_config]
+  handle_size = 1
+  homogeneous_tabbar = False
+  scroll_tabbar = True
+  tab_position = bottom
+[keybindings]
+  switch_to_tab_1 = <Alt>1
+  switch_to_tab_10 = <Alt>0
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_3 = <Alt>3
+  switch_to_tab_4 = <Alt>4
+  switch_to_tab_5 = <Alt>5
+  switch_to_tab_6 = <Alt>6
+  switch_to_tab_7 = <Alt>7
+  switch_to_tab_8 = <Alt>8
+  switch_to_tab_9 = <Alt>9
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color_fg = False
+    font = Source Code Pro for Powerline 11
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    palette = "#002831:#d11c24:#6cbe6c:#a57706:#2176c7:#c61c6f:#259286:#eae3cb:#006488:#f5163b:#51ef84:#b27e28:#178ec8:#e24d8e:#00b39e:#fcf4dc"
+    background_color = "#001e27"
+    cursor_color = "#f34b00"
+    foreground_color = "#9cc2c3"
+    background_image = None

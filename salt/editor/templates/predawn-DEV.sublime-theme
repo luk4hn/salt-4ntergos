@@ -1,0 +1,10 @@
+[
+    {
+        "class": "sidebar_label",
+        // "color": [0, 0, 0],
+        "font.bold": true,
+        "font.size": 15,
+        "font.face": "Ubuntu Mono derivative Powerline"
+        //"font.face": "Source Code Pro for Powerline"
+    },
+]
